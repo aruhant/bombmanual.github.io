@@ -1246,9 +1246,9 @@
 					<h2>स्मृति के संदर्भ में</h2>
 					<p class="flavour-text">स्मृति क्षणभंगुर है, लेकिन एक बम से सब कुछ भंगुर है, इसलिए कृपया ध्यान दें!</p>
 					<ul>
-						<li>मॉड्यूल को अगले चरण में बढ़ाने के लिए सही बटन दबाएँ।
-							मॉड्यूल को निरस्त्र करने के लिए सभी चरण पूर्ण करें</li>
-						<li>त्रुटिपूर्ण बटन दबाने से मॉड्यूल प्रथम चरण पर वापस लौट जाएगा।</li>
+						<li>अवयव को अगले चरण में बढ़ाने के लिए सही बटन दबाएँ।
+							अवयव को निरस्त्र करने के लिए सभी चरण पूर्ण करें</li>
+						<li>त्रुटिपूर्ण बटन दबाने से अवयव प्रथम चरण पर वापस लौट जाएगा।</li>
 						<li>बटन की बाएँ से दाएँ क्रम में है।</li>
 					</ul>
 					<div class="memory-rules">
@@ -1538,146 +1538,148 @@
 				<div class="page-content">
 					<img src="/assets/img/WireSequenceComponent.svg" class="diagram" />
 					<h2>तार अनुक्रमो के संदर्भ में</h2>
-					<p class="flavour-text">It's hard to say how this mechanism works. The engineering is pretty impressive, but there must have been an easier way to manage nine wires।</p>
+					<p class="flavour-text">यह कहना मुश्किल है कि यह तंत्र कैसे काम करता है।
+						इसकी अभियांत्रिकी बहुत भव्य है, लेकिन इन नौ तारों को प्रबंधित करने का एक सुरुचिपूर्ण तरीका रहा होगा।</p>
 					<ul>
-						<li>Within this module there are several panels with wires on them, but only one panel is visible at a time. Switch to the next panel by using the down button and the previous
-							panel by using the up button।</li>
-						<li>Do not switch to the next panel until you are sure that you have cut all necessary wires on the current panel।</li>
-						<li>Cut the wires as directed by the following table. Wire occurrences are cumulative over all panels within the module।</li>
+						<li>इस अवयव के भीतर तारों के कई पट्ट हैं, लेकिन एक समय में केवल एक ही पट्ट दिखाई देता है।
+							ऊर्ध्व बटन का उपयोग करके अगले,एवं अधः बटन उपयोग करके पिछले पट्ट पर पहुंचे।</li>
+						<li>अगले पट्ट पर तभी जाए जब आपको यकीन हो कि आपने वर्तमान पट्ट के सभी आवश्यक तारों को काट दिया है।</li>
+						<li>निम्न तालिका द्वारा निर्देशित तारों को काटें।
+							अवयव के भीतर सभी पट्टो पर तार की उपस्थिति संचयी हैं।</li>
 					</ul>
 					<div class="table-container">
 						<table class="red-table">
 							<tr>
-								<th colspan="2" class="header">Red Wire Occurrences</th>
+								<th colspan="2" class="header">लाल तारो से अभ्यागम</th>
 							</tr>
 							<tr>
-								<th class="first-col">Wire Occurrence</th>
-								<th class="second-col">Cut if connected to:</th>
+								<th class="first-col">अभ्यागम क्रम</th>
+								<th class="second-col">इनसे जुड़ा हो तो काटे :</th>
 							</tr>
 							<tr>
-								<td class="first-col">First&nbsp;red occurrence</td>
+								<td class="first-col">प्रथम लाल अभ्यागम</td>
 								<td class="second-col">C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Second&nbsp;red occurrence</td>
+								<td class="first-col">द्वितीय लाल अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Third&nbsp;red occurrence</td>
+								<td class="first-col"> तृतीय लाल अभ्यागम</td>
 								<td class="second-col">A</td>
 							</tr>
 							<tr>
-								<td class="first-col">Fourth&nbsp;red occurrence</td>
+								<td class="first-col"> चतुर्थ लाल अभ्यागम</td>
 								<td class="second-col">A or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Fifth&nbsp;red occurrence</td>
+								<td class="first-col"> पञ्चम लाल अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Sixth&nbsp;red occurrence</td>
+								<td class="first-col"> षष्ठ लाल अभ्यागम</td>
 								<td class="second-col">A or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Seventh&nbsp;red occurrence</td>
+								<td class="first-col"> सप्तम लाल अभ्यागम</td>
 								<td class="second-col">A, B or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Eighth&nbsp;red occurrence</td>
+								<td class="first-col"> अष्टम लाल अभ्यागम</td>
 								<td class="second-col">A or B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Ninth&nbsp;red occurrence</td>
+								<td class="first-col"> नवम लाल अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 						</table>
 						<table class="blue-table">
 							<tr>
-								<th colspan="2" class="header">Blue Wire Occurrences</th>
+								<th colspan="2" class="header">नीले तारो से अभ्यागम</th>
 							</tr>
 							<tr>
-								<th class="first-col">Wire Occurrence</th>
-								<th class="second-col">Cut if connected to:</th>
+								<th class="first-col">अभ्यागम क्रम</th>
+								<th class="second-col">इनसे जुड़ा हो तो काटे :</th>
 							</tr>
 							<tr>
-								<td class="first-col">First&nbsp;blue occurrence</td>
+								<td class="first-col">प्रथम नीला अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Second&nbsp;blue occurrence</td>
+								<td class="first-col">द्वितीय नीला अभ्यागम</td>
 								<td class="second-col">A or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Third&nbsp;blue occurrence</td>
+								<td class="first-col"> तृतीय नीला अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Fourth&nbsp;blue occurrence</td>
+								<td class="first-col"> चतुर्थ नीला अभ्यागम</td>
 								<td class="second-col">A</td>
 							</tr>
 							<tr>
-								<td class="first-col">Fifth&nbsp;blue occurrence</td>
+								<td class="first-col"> पञ्चम नीला अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Sixth&nbsp;blue occurrence</td>
+								<td class="first-col"> षष्ठ नीला अभ्यागम</td>
 								<td class="second-col">B or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Seventh&nbsp;blue occurrence</td>
+								<td class="first-col"> सप्तम नीला अभ्यागम</td>
 								<td class="second-col">C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Eighth&nbsp;blue occurrence</td>
+								<td class="first-col"> अष्टम नीला अभ्यागम</td>
 								<td class="second-col">A or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Ninth&nbsp;blue occurrence</td>
+								<td class="first-col"> नवम नीला अभ्यागम</td>
 								<td class="second-col">A</td>
 							</tr>
 						</table>
 						<table class="black-table">
 							<tr>
-								<th colspan="2" class="header">Black Wire Occurrences</th>
+								<th colspan="2" class="header">काले तारो से अभ्यागम</th>
 							</tr>
 							<tr>
-								<th class="first-col">Wire Occurrence</th>
-								<th class="second-col">Cut if connected to:</th>
+								<th class="first-col">अभ्यागम क्रम</th>
+								<th class="second-col">इनसे जुड़ा हो तो काटे :</th>
 							</tr>
 							<tr>
-								<td class="first-col">First&nbsp;black occurrence</td>
+								<td class="first-col">प्रथम काला अभ्यागम</td>
 								<td class="second-col">A, B or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Second&nbsp;black occurrence</td>
+								<td class="first-col">द्वितीय काला अभ्यागम</td>
 								<td class="second-col">A or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Third&nbsp;black occurrence</td>
+								<td class="first-col"> तृतीय काला अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Fourth&nbsp;black occurrence</td>
+								<td class="first-col"> चतुर्थ काला अभ्यागम</td>
 								<td class="second-col">A or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Fifth&nbsp;black occurrence</td>
+								<td class="first-col"> पञ्चम काला अभ्यागम</td>
 								<td class="second-col">B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Sixth&nbsp;black occurrence</td>
+								<td class="first-col"> षष्ठ काला अभ्यागम</td>
 								<td class="second-col">B or C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Seventh&nbsp;black occurrence</td>
+								<td class="first-col"> सप्तम काला अभ्यागम</td>
 								<td class="second-col">A or B</td>
 							</tr>
 							<tr>
-								<td class="first-col">Eighth&nbsp;black occurrence</td>
+								<td class="first-col"> अष्टम काला अभ्यागम</td>
 								<td class="second-col">C</td>
 							</tr>
 							<tr>
-								<td class="first-col">Ninth&nbsp;black occurrence</td>
+								<td class="first-col"> नवम काला अभ्यागम</td>
 								<td class="second-col">C</td>
 							</tr>
 						</table>
