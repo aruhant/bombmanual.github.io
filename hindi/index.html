@@ -21,6 +21,7 @@
 	<meta name="viewport" content="initial-scale=1" />
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="/assets/css/newmain.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/hindi.css" />
 	<link rel="icon" href="/favicon.ico" type="image/png" />
 	<link rel="apple-touch-icon-precomposed" href="/assets/apple-touch-icon-precomposed.png" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap">
@@ -1301,9 +1302,9 @@
 						कम से कम यह वास्तविक मोर्स संकेताक्षर है, इसलिए ध्यान दें, संभावित हैं की आप कुछ ज्ञानार्जन ही कर ले ।</p>
 					मोर्स संकेताक्षर
 					<ul>
-						<li>Interpret the signal from the flashing light using the Morse Code chart to spell one of the words in the table।</li>
-						<li>The signal will loop, with a long gap between repetitions।</li>
-						<li>Once the word is identified, set the corresponding frequency and press the transmit (TX) button।</li>
+						<li>चमकती बत्ती के संकेत का मोर्स संकेताक्षर से भाषान्तरण कर तालिका का एक शब्द प्राप्त करे।</li>
+						<li>संकेत एक अंतराल के बाद दोहराएंगे।</li>
+						<li>शब्द की पहचान हो जाने पर, तदनुसार आवृत्ति का चयन करें और प्रेषण (TX) बटन दबाएं।</li>
 					</ul>
 					<table class="morse-signal-table">
 						<thead>
@@ -1312,10 +1313,10 @@
 							</tr>
 							<tr class="morse-interpret">
 								<td>
-									<p>1. A short flash represents a dot।</p>
-									<p>2. A long flash represents a dash।</p>
-									<p>3. There is a long gap between letters।</p>
-									<p>4. There is a very long gap before the word repeats।</p>
+									<p>1. एक द्रुत चमक एक बिंदु दर्शाती है।</p>
+									<p>2. एक दीर्घ चमक एक रेखा दर्शाती है।</p>
+									<p>3. अक्षरों के मध्य एक अल्प अन्तराल है।</p>
+									<p>4. शब्द दोहराने से पहले एक लंबा अन्तराल है।</p>
 								</td>
 							</tr>
 						</thead>
@@ -1327,8 +1328,8 @@
 					</table>
 					<table class="morse-frequency-table">
 						<tr>
-							<th>If the word is:</th>
-							<th>Respond at frequency:</th>
+							<th>यदि शब्द है:</th>
+							<th>प्रत्युत्तर आवृत्ति:</th>
 						</tr>
 						<tr>
 							<td>shell</td>
@@ -1403,18 +1404,19 @@
 			<div id="ComplicatedWires" class="page venn-wires page-bg-06">
 				<div class="page-header">
 					<span class="page-header-doc-title">बम बम बोले, बम खोले v. 1</span>
-					<span class="page-header-section-title">Complicated Wires</span>
+					<span class="page-header-section-title">पेचीदा तार</span>
 				</div>
 				<div class="page-footer absolute-footer">Page 13 of 23</div>
 				<div class="page-content">
 					<img src="/assets/img/VennWireComponent.svg" class="diagram" />
-					<h2>के संदर्भ में Complicated Wires</h2>
-					<p class="flavour-text">These wires aren't like the others. Some have stripes! That makes them completely different. The good news is that we've found a concise set of instructions
-						on what to do about it! Maybe too concise..।</p>
+					<h2>पेचीदा तारो के संदर्भ में</h2>
+					<p class="flavour-text">ये तार दूसरों की तरह नहीं हैं। कुछ में धारियां हैं! यह उन्हें विशिष्ट बनाता है।
+						अच्छी खबर यह है कि हमारे पास संक्षिप्त निर्देश हैं।
+						सभवतः अत्यधिक संक्षिप्त...</p>
 					<ul>
-						<li>Look at each wire: there is an LED above the wire and a space for a "&#9733;" symbol below the wire।</li>
-						<li>For <b>each</b> wire/LED/symbol combination, use the Venn diagram below to decide whether or not to cut the wire।</li>
-						<li>Each wire may be striped with multiple colors।</li>
+						<li>तारो को देखें: तारो के ऊपर एक बत्ती है और नीचे "&#9733;" चिह्नो के लिए स्थान </li>
+						<li><b>प्रत्येक</b> तार/बत्ती/चिह्न संयोजन के लिए, तार को काटना है या नहीं, यह तय करने के लिए नीचे दिए गए वेन आरेख का उपयोग करें।</li>
+						<li>तार में कई रंगो की धारियाँ हो सकती है।</li>
 					</ul>
 					<div id="venndiagram">
 						<?xml version="1.0" encoding="utf-8" ?>
@@ -1477,49 +1479,51 @@
 						<table id="vennlegendtable">
 							<tr>
 								<td><img class="venn-legend-line" src="/assets/img/modules/venn/venn_red.svg" /></td>
-								<td class="venn-legend-text">Wire has red coloring</td>
+								<td class="venn-legend-text">तार में लाल रंग है</td>
 							</tr>
 							<tr>
 								<td><img class="venn-legend-line" src="/assets/img/modules/venn/venn_blue.svg" /></td>
-								<td class="venn-legend-text">Wire has blue coloring</td>
+								<td class="venn-legend-text">तार में नीला रंग है</td>
 							</tr>
 							<tr>
 								<td><img class="venn-legend-line" src="/assets/img/modules/venn/venn_symbol.svg" /></td>
-								<td class="venn-legend-text">Has &#9733; symbol</td>
+								<td class="venn-legend-text">&#9733; चिह्न हैं</td>
 							</tr>
 							<tr>
 								<td><img class="venn-legend-line" src="/assets/img/modules/venn/venn_led.svg" /></td>
-								<td class="venn-legend-text">LED is on</td>
+								<td class="venn-legend-text">बत्ती प्रज्ज्वलित हैं</td>
 							</tr>
 						</table>
 						<table id="venninstructiontable">
 							<tr>
-								<th>Letter</th>
-								<th>Instruction</th>
+								<th> वर्ण </th>
+								<th> निर्देश </th>
 							</tr>
 							<tr>
 								<td>C</td>
-								<td>Cut the wire</td>
+								<td>तार काटे </td>
 							</tr>
 							<tr>
 								<td>D</td>
-								<td>Do not cut the wire</td>
+								<td>तार न काटे </td>
 							</tr>
 							<tr>
 								<td>S</td>
-								<td>Cut the wire if the last digit of the serial number is even</td>
+								<td>तार को काटें यदि बम अनुक्रमांक का अंतिम अंक सम है</td>
 							</tr>
 							<tr>
 								<td>P</td>
-								<td>Cut the wire if the bomb has a parallel port</td>
+								<td> अगर बम में एक समानांतर पोर्ट है, तो तार काटें</td>
 							</tr>
 							<tr>
 								<td>B</td>
-								<td>Cut the wire if the bomb has two or more batteries</td>
+								<td> यदि बम में दो या अधिक बैटरी है तो तार काटें </td>
 							</tr>
 						</table>
 					</div>
-					<p class="appendix-reference"><span>See Appendix B for battery identification reference।</span><br /><span>See Appendix C for port identification reference।</span></p>
+					<p class="appendix-reference"><span>बैटरी संदर्भ के लिए परिशिष्ट B देखें।</span><br />
+						<span>पोर्ट संदर्भ के लिए परिशिष्ट C देखें।</span>
+					</p>
 				</div>
 				<div class="page-footer relative-footer">Page 13 of 23</div>
 			</div>
@@ -1528,12 +1532,12 @@
 			<div id="WireSequences" class="page wire-sequence page-bg-07">
 				<div class="page-header">
 					<span class="page-header-doc-title">बम बम बोले, बम खोले v. 1</span>
-					<span class="page-header-section-title">Wire Sequences</span>
+					<span class="page-header-section-title">तार अनुक्रम</span>
 				</div>
 				<div class="page-footer absolute-footer">Page 14 of 23</div>
 				<div class="page-content">
 					<img src="/assets/img/WireSequenceComponent.svg" class="diagram" />
-					<h2>के संदर्भ में Wire Sequences</h2>
+					<h2>तार अनुक्रमो के संदर्भ में</h2>
 					<p class="flavour-text">It's hard to say how this mechanism works. The engineering is pretty impressive, but there must have been an easier way to manage nine wires।</p>
 					<ul>
 						<li>Within this module there are several panels with wires on them, but only one panel is visible at a time. Switch to the next panel by using the down button and the previous
